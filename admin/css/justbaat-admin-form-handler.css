@@ -1,0 +1,55 @@
+.jb-form-handler-field {
+    margin-bottom: 15px;
+}
+.jb-form-handler-field label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.jb-form-handler-field input[type="checkbox"],
+.jb-form-handler-field input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.jb-form-handler-field input[type="checkbox"] {
+    transform: scale(1.2);
+    accent-color: var(--jb-blue);
+}
+
+.jb-form-handler-field input[type="text"],
+.jb-form-handler-field select,
+.jb-form-handler-field textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+.jb-form-handler-field textarea {
+    height: 100px;
+}
+
+.jb-r-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.jb-c-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.jb-form-group {
+    margin-top: 20px;
+    border: 1px solid var(--jb-blue);
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.jb-form-group legend {
+    font-weight: bold;
+}
+
+.jb-form-field {
+    margin-bottom: 10px;
+}
+
